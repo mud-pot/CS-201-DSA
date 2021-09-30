@@ -4,7 +4,7 @@
     Scholar ID: 2012011
     Data Structures
     CS - 201
-    Department of Computer Science and Engineering, 
+    Department of Computer Science and Engineering 
     National Institute of Technology, Silchar
 */
 
