@@ -47,31 +47,28 @@ int main() {
   char Num1[MAX] = {0}, Num2[MAX] = {0};
   int num1, num2;
   
-  printf("Enter number 1 ");
+  printf("Enter the first binary number: ");
   scanf("%s", Num1);
   num1 = BinToDec(Num1);
 
-  printf("Enter number 2 > ");
+  printf("Enter the second binary number: ");
   scanf("%s", Num2);
   num2 = BinToDec(Num2);
 
-  int op;
-  printf("\n");
-  printf("1. Addition\n");
-  printf("2. Multiplication\n");
-  printf("Enter operation 1/2 > ");
-  scanf("%d", &op);
+int op;
+char *result;
+    printf("Select any one operation(1.Addition  2.Multiplication): ");
+    scanf("%d",&op);
 
-  char *result;
   switch(op) {
     case 1:
       result = DecToBin(Add(num1, num2));
-      printf("Result > %s\n", result);
+      printf("The Sum is: %s\n", result);
       break;
     
     case 2:
       result = DecToBin(Mul(num1, num2));
-      printf("Result > %s\n", result);
+      printf("The product is: %s\n", result);
       break;
 
     default:
