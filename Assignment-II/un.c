@@ -30,11 +30,11 @@ int main() {
   char Num1[MAX] = {0}, Num2[MAX] = {0};
   int num1, num2;
   
-  printf("Enter the first number: ");
+  printf("Enter the first unary number: ");
   scanf("%s", Num1);
   num1 = UnToDec(Num1);
 
-  printf("Enter the second number: ");
+  printf("Enter the second unary number: ");
   scanf("%s", Num2);
   num2 = UnToDec(Num2);
 
